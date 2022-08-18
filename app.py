@@ -281,7 +281,7 @@ def page_3():
 
 
 def page_4():
-    repo_path = 'C:\Alicia\Data Science 02\Trabajo grupal\archivos'
+    repo_path = 'https://github.com/alimusac/Trabajo-Grupal'
     st.title('El calentamiento global en el mundo')
     st.write('La comunidad internacional se ha puesto de acuerdo para evitar que el aumento promedio de la temperatura mundial no supere los 2 °C por encima de los niveles pre-industriales. Para tal fin, todos los países presentan en forma voluntaria un compromiso para disminuir sus emisiones de dióxido de carbono para el 2030.')
     st.write('Sin embargo, distintos tipos de estudios advierten que los estragos de la polución ya están dejando sus huellas en el presente.')
