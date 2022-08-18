@@ -1,0 +1,129 @@
+Nombre_col_en,,Nombre_col_es,Descripcion
+year,Year of observation,año,Año de observación
+biofuel_cons_change_twh,"Annual change in biofuel consumption, measured in terawatt-hours",biocomb_cambio_cons_twh,"Cambio anual en el consumo de biocombustibles, medido en Terawatt-Hours"
+coal_cons_change_twh,"Annual change in coal consumption, measured in terawatt-hours",carbon_cambio_cons_twh,"Cambio anual en el consumo de carbón, medido en Terawatt-Hours"
+fossil_cons_change_twh,"Annual change in fossil fuel consumption, measured in terawatt-hours",fosil_cambio_cons_twh,"Cambio anual en el consumo de combustibles fósiles, medido en Terawatt-Hours"
+low_carbon_cons_change_twh,"Annual change in low-carbon energy consumption, measured in terawatt-hours",baja_carbono_cambio_cons_twh,"Cambio anual en el consumo de energía baja en carbono, medido en horas terawatt"
+energy_cons_change_twh,"Annual change in primary energy consumption, measured in terawatt-hours",energia_prim_cambio_cons_twh,"Cambio anual en el consumo de energía primaria, medido en Terawatt-Hours"
+renewables_cons_change_twh,"Annual change in renewable energy consumption, measured in terawatt-hours",renovable_cambio_cons_twh,"Cambio anual en el consumo de energía renovable, medido en Terawatt-Hours"
+gas_cons_change_twh,"Annual change in gas consumption, measured in terawatt-hours",gas_cambio_cons_twh,"Cambio anual en el consumo de gas, medido en Terawatt-Hours"
+oil_cons_change_twh,"Annual change in oil consumption, measured in terawatt-hours",petroleo_cambio_cons_twh,"Cambio anual en el consumo de petróleo, medido en Terawatt-Hours"
+wind_cons_change_twh,"Annual change in wind consumption, measured in terawatt-hours",viento_cambio_cons_twh,"Cambio anual en el consumo de viento, medido en Terawatt-Hours"
+hydro_cons_change_twh,"Annual change in hydropower consumption, measured in terawatt-hours",hidroelec_cambio_cons_twh,"Cambio anual en el consumo hidroeléctrico, medido en Terawatt-Hours"
+nuclear_cons_change_twh,"Annual change in nuclear consumption, measured in terawatt-hours",nuclear_cambio_cons_twh,"Cambio anual en el consumo nuclear, medido en Terawatt-Hours"
+solar_cons_change_twh,"Annual change in solar consumption, measured in terawatt-hours",solar_cambio_cons_twh,"Cambio anual en el consumo solar, medido en Terawatt-Hours"
+coal_prod_change_twh,"Annual change in coal production, measured in terawatt-hours",carbon_cambio_prod_twh,"Cambio anual en la producción de carbón, medido en Terawatt-Hours"
+gas_prod_change_twh,"Annual change in gas production, measured in terawatt-hours",gas_cambio_prod_twh,"Cambio anual en la producción de gas, medido en Terawatt-Hours"
+oil_prod_change_twh,"Annual change in oil production, measured in terawatt-hours",petroleo_cambio_prod_twh,"Cambio anual en la producción de petróleo, medido en Terawatt-Hours"
+other_renewables_cons_change_twh,"Annual change in other renewable consumption, measured in terawatt-hours",otro_renovable_cambio_cons_twh,"Cambio anual en otro consumo renovable, medido en Terawatt-Hours"
+biofuel_cons_change_pct,Annual percentage change in biofuel consumption,biocombustible_cambio_cons_pct,Cambio porcentual anual en el consumo de biocombustibles
+coal_cons_change_pct,Annual percentage change in coal consumption,carbon_cambio_cons_pct,Cambio porcentual anual en el consumo de carbón
+fossil_cons_change_pct,Annual percentage change in fossil fuel consumption,fosil_cambio_cons_pct,Cambio porcentual anual en el consumo de combustibles fósiles
+low_carbon_cons_change_pct,Annual percentage change in low-carbon energy consumption,baja_carbono_cambio_cons_pct,Cambio porcentual anual en el consumo de energía baja en carbono
+other_renewables_cons_change_pct,Annual percentage change in energy consumption from other renewables,otro_renovable_cambio_cons_pct,Cambio porcentual anual en el consumo de energía de otras energías renovables
+hydro_cons_change_pct,Annual percentage change in hydropower consumption,hidroelec_cambio_cons_pct,Cambio porcentual anual en el consumo de energía hidroeléctrica
+energy_cons_change_pct,Annual percentage change in primary energy consumption,energia_prim_cambio_cons_pct,Cambio porcentual anual en el consumo de energía primaria
+renewables_cons_change_pct,Annual percentage change in renewable energy consumption,renovable_cambio_cons_pct,Cambio porcentual anual en el consumo de energía renovable
+gas_cons_change_pct,Annual percentage change in gas consumption,gas_cambio_cons_pct,Cambio porcentual anual en el consumo de gas
+oil_cons_change_pct,Annual percentage change in oil consumption,petroleo_cambio_cons_pct,Cambio porcentual anual en el consumo de petróleo
+wind_cons_change_pct,Annual percentage change in wind consumption,viento_cambio_cons_pct,Cambio porcentual anual en el consumo de viento
+nuclear_cons_change_pct,Annual percentage change in nuclear consumption,nuclear_cambio_cons_pct,Cambio porcentual anual en el consumo nuclear
+solar_cons_change_pct,Annual percentage change in solar consumption,solar_cambio_cons_pct,Cambio porcentual anual en el consumo solar
+coal_prod_change_pct,Annual percentage change in coal production,carbon_cambio_prod_PCT,Cambio porcentual anual en la producción de carbón
+gas_prod_change_pct,Annual percentage change in gas production,gas_cambio_prod_pct,Cambio porcentual anual en la producción de gas
+oil_prod_change_pct,Annual percentage change in oil production,petroleo_cambio_prod_pct,Cambio porcentual anual en la producción de petróleo
+fossil_energy_per_capita,"Per capita fossil fuel consumption, measured in kilowatt-hours. This is the sum of primary energy from coal, oil and gas.",fosil_combustible_cons_per_capita_kvh,"Consumo de combustible fósil per cápita, medido en kilovatios-hora. Esta es la suma de la energía primaria del carbón, el petróleo y el gas."
+fossil_fuel_consumption,"Fossil fuel consumption, measured in terawatt-hours. This is the sum of primary energy from coal, oil and gas.",fosil_combustible_cons_tw,"Consumo de combustible fósil, medido en horas de Terawatt. Esta es la suma de la energía primaria del carbón, el petróleo y el gas."
+energy_per_gdp,Energy consumption per unit of GDP. This is measured in kilowatt-hours per 2011 international-$.,energia_cons_por_PIB_kvh,Consumo de energía por unidad de PIB. Esto se mide en kilovatios-hora por 2011 International- $.
+biofuel_consumption,"Primary energy consumption from biofuels, measured in terawatt-hours",biocombustible_energia_cons,"Consumo de energía primaria de biocombustibles, medido en horas de terawatt"
+low_carbon_consumption,"Primary energy consumption from low-carbon sources, measured in terawatt-hours",baja_carbono_energia_cons,"Consumo de energía primaria de fuentes bajas de carbono, medido en horas de terawatt"
+hydro_consumption,"Primary energy consumption from hydropower, measured in terawatt-hours",hidroelec_energia_cons,"Consumo de energía primaria de la energía hidroeléctrica, medida en Terawatt-Hours"
+nuclear_consumption,"Primary energy consumption from nuclear power, measured in terawatt-hours",nuclear_ energia_cons,"Consumo de energía primaria de la energía nuclear, medida en horas de Terawatt"
+solar_consumption,"Primary energy consumption from solar, measured in terawatt-hours",solar_energia_cons,"Consumo de energía primaria de la energía solar, medida en Terawatt-Hours"
+renewables_consumption,"Primary energy consumption from renewables, measured in terawatt-hours",renovables_ energia_cons,"Consumo de energía primaria de las energías renovables, medidas en Terawatt-Hours"
+other_renewable_consumption,"Primary energy consumption from other renewables, measured in terawatt-hours",otros_renovables_energia_cons,"Consumo de energía primaria de otras energías renovables, medidas en Terawatt-Hours"
+coal_consumption,"Primary energy consumption from coal, measured in terawatt-hours",carbon_ energia_cons,"Consumo de energía primaria del carbón, medido en horas de Terawatt"
+gas_consumption,"Primary energy consumption from gas, measured in terawatt-hours",gas_energia_cons,"Consumo de energía primaria del gas, medido en horas de Terawatt"
+oil_consumption,"Primary energy consumption from oil, measured in terawatt-hours",petroleo_energia_cons,"Consumo de energía primaria del petróleo, medido en Terawatt-Hours"
+wind_consumption,"Primary energy consumption from wind, measured in terawatt-hours",viento_energia_cons,"Consumo de energía primaria del viento, medido en Terawatt-Hours"
+biofuel_cons_per_capita,"Per capita primary energy consumption from biofuels, measured in kilowatt-hours",biocombustible_cons_per_capita,"Consumo de energía primaria per cápita de biocombustibles, medido en kilovatios-hora"
+low_carbon_energy_per_capita,"Per capita primary energy consumption from low-carbon sources, measured in kilowatt-hours",baja_carbono_cons_per_capita,"Consumo de energía primaria per cápita de fuentes bajas en carbono, medido en kilovatios-hora"
+gas_energy_per_capita,"Per capita primary energy consumption from gas, measured in kilowatt-hours",gas_cons_per_capita,"Consumo de energía primaria per cápita de gas, medido en kilovatios-hora"
+hydro_energy_per_capita,"Per capita primary energy consumption from hydropower, measured in kilowatt-hours",hidroelec_cons_per_Capita,"Consumo de energía primaria per cápita de la energía hidroeléctrica, medido en kilovatios-hora"
+renewables_energy_per_capita,"Per capita primary energy consumption from renewables, measured in kilowatt-hours",renovable_cons_per_capita,"Consumo de energía primaria per cápita de las energías renovables, medidas en kilovatios-hora"
+nuclear_energy_per_capita,"Per capita primary energy consumption from nuclear, measured in kilowatt-hours",nuclear_cons_per_capita,"Consumo de energía primaria per cápita de nuclear, medido en kilovatios-hora"
+other_renewables_energy_per_capita,"Per capita primary energy consumption from other renewables, measured in kilowatt-hours",otro_cons_renovable_per_capita,"Consumo de energía primaria per cápita de otras energías renovables, medidas en kilovatios-hora"
+solar_energy_per_capita,"Per capita primary energy consumption from solar, measured in kilowatt-hours",solar_cons_per_capita,"Consumo de energía primaria per cápita de solar, medido en kilovatios-hora"
+coal_cons_per_capita,"Per capita primary energy consumption from coal, measured in kilowatt-hours",carbon_cons_per_capita,"Consumo de energía primaria per cápita del carbón, medido en kilovatios-hora"
+oil_energy_per_capita,"Per capita primary energy consumption from oil, measured in kilowatt-hours",petroleo_cons_per_capita,"Consumo de energía primaria per cápita del petróleo, medido en kilovatios-hora"
+wind_energy_per_capita,"Per capita primary energy consumption from wind, measured in kilowatt-hours",viento_cons_per_capita,"Consumo de energía primaria per cápita del viento, medido en kilovatios-hora"
+energy_per_capita,"Primary energy consumption per capita, measured in kilowatt-hours",energia_prim_cons_per_capita,"Consumo de energía primaria per cápita, medido en kilovatios-hora"
+primary_energy_consumption,"Primary energy consumption, measured in terawatt-hours",energia_prim_cons,"Consumo de energía primaria, medido en Terawatt-Hours"
+electricity_demand,"Electricity demand, measured in terawatt-hours",electricidad_demanda,"Demanda de electricidad, medida en Terawatt-Hours"
+biofuel_electricity,"Electricity generation from biofuels, measured in terawatt-hours",biocombustible_electricidad,"Generación de electricidad a partir de biocombustibles, medidos en Terawatt-Hours"
+coal_electricity,"Electricity generation from coal, measured in terawatt-hours",carbon_electricidad,"Generación de electricidad a partir de carbón, medida en Terawatt-Hours"
+fossil_electricity,"Electricity generation from fossil fuels, measured in terawatt-hours. This is the sum of electricity generation from coal, oil and gas.",fosil_electricidad,"Generación de electricidad a partir de combustibles fósiles, medidos en horas terawatt. Esta es la suma de la generación de electricidad del carbón, el petróleo y el gas."
+nuclear_electricity,"Electricity generation from nuclear power, measured in terawatt-hours",nuclear_electricidad,"Generación de electricidad a partir de energía nuclear, medida en horas de Terawatt"
+renewables_electricity,"Electricity generation from renewables, measured in terawatt-hours",renovables_electricidad,"Generación de electricidad a partir de energías renovables, medida en Terawatt-Hours"
+low_carbon_electricity,"Electricity generation from low-carbon sources, measured in terawatt-hours. This is the sum of electricity generation from renewables and nuclear power",baja_carbono_electricidad,"Generación de electricidad a partir de fuentes bajas en carbono, medidas en horas de terawatt. Esta es la suma de la generación de electricidad de las energías renovables y la energía nuclear."
+gas_electricity,"Electricity generation from gas, measured in terawatt-hours",gas_electricidad,"Generación de electricidad a partir de gas, medida en Terawatt-Hours"
+hydro_electricity,"Electricity generation from hydropower, measured in terawatt-hours",hidroelec_electricidad,"Generación de electricidad a partir de la energía hidroeléctrica, medida en Terawatt-Hours"
+solar_electricity,"Electricity generation from solar, measured in terawatt-hours",solar_electricidad,"Generación de electricidad a partir de la energía solar, medida en Terawatt-Hours"
+oil_electricity,"Electricity generation from oil, measured in terawatt-hours",petroleo_electricidad,"Generación de electricidad a partir del aceite, medido en Terawatt-Hours"
+other_renewable_exc_biofuel_electricity,"Electricity generation from other renewable sources excluding biofuels, measured in terawatt-hours",otro_renovable_exc_biocomb_electricidad,"Generación de electricidad de otras fuentes renovables que excluyen los biocombustibles, medidos en Terawatt-Hours"
+other_renewable_electricity,"Electricity generation from other renewable sources including biofuels, measured in terawatt-hours",otro_renobable_electricidad,"Generación de electricidad de otras fuentes renovables, incluidas las biocombustibles, medidas en Terawatt-Hours"
+wind_electricity,"Electricity generation from wind, measured in terawatt-hours",viento_electricidad,"Generación de electricidad del viento, medido en Terawatt-Hours"
+biofuel_elec_per_capita,"Per capita electricity generation from biofuels, measured in kilowatt-hours",biocombustible_elec_per_capita,"Generación de electricidad per cápita a partir de biocombustibles, medidos en kilovatios-hora"
+coal_elec_per_capita,"Per capita electricity generation from coal, measured in kilowatt-hours",carbon_elec_per_capita,"Generación de electricidad per cápita a partir de carbón, medida en kilovatios-hora"
+fossil_elec_per_capita,"Per capita electricity generation from fossil fuels, measured in kilowatt-hours. This is the sum of electricity generated from coal, oil and gas.",fosil_elec_per_capita,"Generación de electricidad per cápita a partir de combustibles fósiles, medidos en kilovatios-hora. Esta es la suma de electricidad generada a partir de carbón, petróleo y gas."
+nuclear_elec_per_capita,"Per capita electricity generation from nuclear power, measured in kilowatt-hours",nuclear_elec_per_capita,"Generación de electricidad per cápita a partir de energía nuclear, medida en kilovatios-hora"
+renewables_elec_per_capita,"Per capita electricity generation from renewables, measured in kilowatt-hours",renovables_elec_per_capita,"Generación de electricidad per cápita a partir de energías renovables, medidas en kilovatios-hora"
+gas_elec_per_capita,"Per capita electricity generation from gas, measured in kilowatt-hours",gas_elec_per_capita,"Generación de electricidad per cápita a partir de gas, medida en kilovatios-hora"
+hydro_elec_per_capita,"Per capita electricity generation from hydropower, measured in kilowatt-hours",hidroelec_elec_per_capita,"Generación de electricidad per cápita a partir de la energía hidroeléctrica, medida en kilovatios-hora"
+other_renewables_elec_per_capita_exc_biofuel,"Per capita electricity generation from other renewables excluding biofuels, measured in kilowatt-hours",otro_renovable_elec_per_capita_exc_biocombustible,"Generación de electricidad per cápita a partir de otras energías renovables que excluyen los biocombustibles, medidos en kilovatios-hora"
+other_renewables_elec_per_capita,"Per capita electricity generation from other renewables including biofuels, measured in kilowatt-hours",otro_renovable_elec_per_capita,"Generación de electricidad per cápita a partir de otros renovables, incluidos biocombustibles, medidos en kilovatios-hora"
+oil_elec_per_capita,"Per capita electricity generation from oil, measured in kilowatt-hours",petroleo_elec_per_capita,"Generación de electricidad per cápita a partir de petróleo, medida en kilovatios-hora"
+solar_elec_per_capita,"Per capita electricity generation from solar, measured in kilowatt-hours",solar_elec_per_capita,"Generación de electricidad per cápita a partir de solar, medida en kilovatios-hora"
+low_carbon_elec_per_capita,"Per capita electricity generation from low-carbon sources, measured in kilowatt-hours",baja_carbono_elec_per_capita,Generación de electricidad per cápita de fuentes bajas en carbono
+wind_elec_per_capita,"Per capita electricity generation from wind, measured in kilowatt-hours",viento_elec_per_capita,"Generación de electricidad per cápita del viento, medido en kilovatios-hora"
+per_capita_electricity,"Electricity generation per capita, measured in kilowatt-hours",per_capita_electricidad,"Generación de electricidad per cápita, medida en kilovatios-hora"
+electricity_generation,"Electricity generation, measured in terawatt-hours",generación_electrica,"Generación de electricidad, medida en Terawatt-Hours"
+net_elec_imports_share_demand,Net electricity imports as a share of electricity demand,importaciones_elec_netas_sobre_demanda,Importaciones netas de electricidad como parte de la demanda de electricidad
+net_elec_imports,"Net electricity imports, measured in terawatt-hours",importaciones_elec_netas,"Importaciones netas de electricidad, medidas en Terawatt-Hours"
+carbon_intensity_elec,"Carbon intensity of electricity production, measured in grams of carbon dioxide emitted per kilowatt-hour",intencidad_carbono_prod_electricidad,"Intensidad de carbono de la producción de electricidad, medido en gramos de dióxido de carbono emitido por kilovatio-hora"
+iso_code,ISO 3166-1 alpha-3 three-letter country codes,cod_pais_ISO,ISO 3166-1 Códigos de país de tres letras alpha-3
+greenhouse_gas_emissions,"Greenhouse-gas emissions produced in the generation of electricity, measured in million tonnes of CO2 equivalent",emisiones_gases_efecto_invernadero,"Las emisiones de gas invernadero producidas en la generación de electricidad, medidas en millones de toneladas de CO2 equivalente"
+biofuel_share_elec,Share of electricity generation that comes from biofuels,biocombistible_share_elec,Parte de la generación de electricidad que proviene de biocombustibles
+low_carbon_share_elec,Share of electricity generation that comes from low-carbon sources. This is the sum of electricity from renewables and nuclear,baja_carbono_share_elec,Parte de la generación de electricidad que proviene de fuentes bajas en carbono. Esta es la suma de electricidad de las energías renovables y nucleares
+gas_share_elec,Share of electricity generation that comes from gas,gas_share_elec,Parte de la generación de electricidad que proviene de gas
+hydro_share_elec,Share of electricity generation that comes from hydropower,hidroelec_share_elec,Parte de la generación de electricidad que proviene de la energía hidroeléctrica
+solar_share_elec,Share of electricity generation that comes from solar,solar_share_elec,Parte de la generación de electricidad que proviene de la energía solar
+oil_share_elec,Share of electricity generation that comes from oil,petroleo_share_elec,Parte de la generación de electricidad que proviene del petróleo
+wind_share_elec,Share of electricity generation that comes from wind,viento_share_elec,Parte de la generación de electricidad que proviene del viento
+low_carbon_share_energy,Share of primary energy consumption that comes from low-carbon sources. This is the sum of primary energy from renewables and nuclear,baja_carbono_share_energia,Parte del consumo de energía primaria que proviene de fuentes bajas en carbono. Esta es la suma de la energía primaria de las energías renovables y la nuclear.
+hydro_share_energy,Share of primary energy consumption that comes from hydropower,hidroelec_share_energia,Parte del consumo de energía primaria que proviene de la energía hidroeléctrica
+renewables_share_energy,Share of primary energy consumption that comes from renewables,renovable_share_energia,Parte del consumo de energía primaria que proviene de las energías renovables
+fossil_share_energy,Share of primary energy consumption that comes from fossil fuels,fosil_share_energia,Parte del consumo de energía primaria que proviene de los combustibles fósiles
+other_renewables_share_energy,Share of primary energy consumption that comes from other renewables,otro_renovable_share_energia,Parte del consumo de energía primaria que proviene de otras energías renovables
+oil_share_energy,Share of primary energy consumption that comes from oil,petroleo_share_energia,Parte del consumo de energía primaria que proviene del petróleo
+wind_share_energy,Share of primary energy consumption that comes from wind,viento_share_energia,Parte del consumo de energía primaria que proviene del viento
+fossil_share_elec,"Share of electricity generation that comes from fossil fuels (coal, oil and gas combined)",fosil_share_elec,"Participación de la generación de electricidad que proviene de combustibles fósiles (carbón, petróleo y gas combinados)"
+nuclear_share_energy,Share of primary energy consumption that comes from nuclear power,nuclear_share_energia,Participación del consumo de energía primaria que proviene de la energía nuclear
+solar_share_energy,Share of primary energy consumption that comes from solar,solar_share_energia,Participación del consumo de energía primaria que proviene de la energía solar
+biofuel_share_energy,Share of primary energy consumption that comes from biofuels,biocombustible_share_energia,Participación del consumo de energía primaria que proviene de los biocombustibles
+coal_share_energy,Share of primary energy consumption that comes from coal,carbon_share_energia,Participación del consumo de energía primaria que proviene del carbón
+gas_share_energy,Share of primary energy consumption that comes from gas,gas_share_energia,Participación del consumo de energía primaria que proviene del gas
+nuclear_share_elec,Share of electricity generation that comes from nuclear power,nuclear_share_elec,Participación en la generación de electricidad que proviene de la energía nuclear
+renewables_share_elec,Share of electricity generation that comes from renewables,renovable_share_elec,Participación en la generación de electricidad que proviene de las energías renovables
+other_renewables_share_elec,Share of electricity generation that comes from other renewables including biofuels,otros_renovables_share_elec,"Participación en la generación de electricidad que proviene de otras energías renovables, incluidos los biocombustibles"
+other_renewables_share_elec_exc_biofuel,Share of electricity generation that comes from other renewables excluding biofuels,otro_renobable_share_elec_exc_biocombustible,Participación en la generación de electricidad que proviene de otros renovables que excluyen los biocombustibles
+coal_share_elec,Share of electricity generation that comes from coal,carbon_share_elec,Participación en la generación de electricidad que proviene del carbón
+population,Population,población,Población
+oil_prod_per_capita,"Per capita oil production, measured in kilowatt-hours",petroleo_prod_per_capita,"Producción de aceite per cápita, medido en kilovatios-hora"
+coal_prod_per_capita,"Per capita coal production, measured in kilowatt-hours",carbon_prod_per_Capita,"Producción de carbón per cápita, medida en kilovatios-hora"
+coal_production,"Coal production, measured in terawatt-hours",carbon_prod,"Producción de carbón, medida en Terawatt-Hours"
+gas_production,"Gas production, measured in terawatt-hours",gas_prod,"Producción de gas, medida en Terawatt-Hours"
+gas_prod_per_capita,"Per capita gas production, measured in kilowatt-hours",gas_prod_per_capita,"Producción de gases per cápita, medido en kilovatios-hora"
+oil_production,"Oil production, measured in terawatt-hours",petroleo_prod,"Producción de petróleo, medida en Terawatt-Hours"
+gdp,"Total real gross domestic product, inflation-adjusted",PIB,"Producto interno bruto real total, ajustado a la inflación"
+country,Geographic location,pais,Ubicación geográfica
