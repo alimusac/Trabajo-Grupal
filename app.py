@@ -1,10 +1,48 @@
-import enum
 import numpy as np
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
 def page_0():
+    # 'https://github.com/alimusac/Trabajo-Grupal'
+    st.title('El calentamiento global en el mundo')
+    st.write('La comunidad internacional se ha puesto de acuerdo para evitar que el aumento **promedio de la temperatura mundial no supere los 2 °C** por encima de los niveles pre-industriales. Para tal fin, todos los países presentan en forma voluntaria un compromiso para disminuir sus emisiones de dióxido de carbono para el 2030.')
+    st.write('Sin embargo, distintos tipos de estudios advierten que los estragos de la polución ya están dejando sus huellas en el presente:')
+    tabs = st.tabs(['Link1', 'link2', 'link3', 'link4', 'link5'])
+    tabs[0].image('diario1.jpg')
+    tabs[0].info('ℹ️ https://www.france24.com/es/minuto-a-minuto/20220810-el-agua-de-lluvia-no-es-potable-debido-a-los-químicos-según-un-estudio')
+    tabs[1].image('diario2.jpg')
+    tabs[1].info('ℹ️ https://www.bbc.com/mundo/noticias-61389005')
+    tabs[2].image('diario3.jpg')
+    tabs[2].info('ℹ️ https://www.jornada.com.mx/notas/2022/08/18/economia/creciente-necesidad-de-recursos-para-hacer-frente-al-cambio-climatico-fmi/')
+    tabs[3].image('diario4.jpg')
+    tabs[3].info('ℹ️ https://www.meteored.mx/noticias/ciencia/la-comunicacion-del-cambio-climatico-y-los-eventos-extremos-en-los-medios.html')
+    tabs[4].image('diario5.jpg')
+    tabs[4].info('ℹ️ https://www.dw.com/es/el-mundo-debe-prepararse-para-los-peores-escenarios-de-extinci%C3%B3n-debido-al-cambio-clim%C3%A1tico/a-62689096')
+    st.write('----')
+    st.title(' LC(Comisión Latinoamericana)')
+    st.write('La ONU ha organizado distintas comisiones para corroborar que cada país esté en camino a cumplir con las NDC (Contribuciones Determinadas a Nivel Nacional) del Acuerdo de París.')
+    st.write('Debemos realizar un informe sobre la situación en Latinoamérica para la IPCC (Grupo Intergubernamental de Expertos Sobre el Cambio Climático) para que nuclee la información y realice un informe general para la ONU.')
+    st.write('Los puntos a trabajar son:')
+    st.title("KPI's")
+    tabs2 = st.tabs(['1 - Compromiso','2 - Acceso','3 - Renovable','4 - Eficiencia','5 - Temperatura'])
+    tabs2[0].write('Analizar el compromiso que cada país realizó y ver si (a cinco años del mismo) están encaminados en su cumplimiento.')
+    with tabs2[0].expander('Imagen'):
+        st.image('NDC.jpg')  
+    tabs2[1].write('Garantizar el acceso universal a servicios energéticos asequibles, fiables y modernos para el 2030.')
+    tabs2[2].write('Aumentar considerablemente la proporción de energía renovable en el conjunto de fuentes energéticas para el 2030.')
+    tabs2[3].write('Duplicar la tasa mundial de mejora de la eficiencia energética para el 2030')
+    tabs2[4].write('Que la temperatura de Latinoamérica no supere los 1,5°C a las mediciones de la época preindustrial.')
+    st.title('Equipo')
+    st.write('La LC(Comisión Latinoamericana) ya está trabajando en el análisis exploratorio de datos a través de la información obtenida.',
+             'Esta información se presenta en los siguientes archivos que podemos explorar:')
+    st.write('- energyco2.csv')
+    st.write('- global_power_plant_database.csv')
+    st.write('- owid-energy-consumption-source.csv')
+    st.write('- GlobalLandTemperaturesByCountry.csv')
+
+
+def page_1():
     st.write('# energyco2.csv')
     st.write('Fuente: https://www.kaggle.com/datasets/lobosi/c02-emission-by-countrys-grouth-and-population')
     tabla = pd.read_csv('energyco2.csv')
@@ -73,9 +111,20 @@ def page_0():
             tabla_agr = tabla[[col_agrup, col]].groupby(col_agrup).count().reset_index().sort_values(col_agrup)
         cols2[1].write(tipo_agrup + ' por la columna "' + col_agrup + '"')
         cols2[1].dataframe(tabla_agr, height=250)
-    st.write('------')
+        st.write('------')
+        if len(tabla_agr) < 50: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea', 'Pastel'], horizontal=True)
+        else: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea'], horizontal=True)
+        fig = go.Figure()
+        if tipo_graph == 'Barra':
+            fig.add_trace(go.Bar(x = tabla_agr[col_agrup], y= tabla_agr[col]))
+        elif tipo_graph == 'Linea':
+            fig.add_trace(go.Scatter(x = tabla_agr[col_agrup], y= tabla_agr[col], mode='lines'))
+        elif tipo_graph == 'Pastel':
+            fig.add_trace(go.Pie(labels = tabla_agr[col_agrup], values= tabla_agr[col]))
+        fig.update_layout(title=col+' agrupado por '+col_agrup)
+        st.plotly_chart(fig)
 
-def page_1():
+def page_2():
     st.write('# global_power_plant_database.csv')
     st.write('Fuente: http://datasets.wri.org/dataset/globalpowerplantdatabase')
     tabla = pd.read_csv('global_power_plant_database.csv', dtype={'other_fuel1':str, 'other_fuel2':str, 'other_fuel3':str})
@@ -154,9 +203,20 @@ def page_1():
             tabla_agr = tabla[[col_agrup, col]].groupby(col_agrup).count().reset_index().sort_values(col_agrup)
         cols2[1].write(tipo_agrup + ' por la columna "' + col_agrup + '"')
         cols2[1].dataframe(tabla_agr, height=250)
-    st.write('------')
+        st.write('------')
+        if len(tabla_agr) < 50: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea', 'Pastel'], horizontal=True)
+        else: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea'], horizontal=True)
+        fig = go.Figure()
+        if tipo_graph == 'Barra':
+            fig.add_trace(go.Bar(x = tabla_agr[col_agrup], y= tabla_agr[col]))
+        elif tipo_graph == 'Linea':
+            fig.add_trace(go.Scatter(x = tabla_agr[col_agrup], y= tabla_agr[col], mode='lines'))
+        elif tipo_graph == 'Pastel':
+            fig.add_trace(go.Pie(labels = tabla_agr[col_agrup], values= tabla_agr[col]))
+        fig.update_layout(title=col+' agrupado por '+col_agrup)
+        st.plotly_chart(fig)
 
-def page_2():
+def page_3():
     st.write('# owid-energy-consumption-source.csv')
     st.write('https://github.com/owid/energy-data')
     tabla = pd.read_csv('owid-energy-consumption-source.csv')
@@ -213,9 +273,20 @@ def page_2():
             tabla_agr = tabla[[col_agrup, col]].groupby(col_agrup).count().reset_index().sort_values(col_agrup)
         cols2[1].write(tipo_agrup + ' por la columna "' + col_agrup + '"')
         cols2[1].dataframe(tabla_agr, height=250)
-    st.write('------')
+        st.write('------')
+        if len(tabla_agr) < 50: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea', 'Pastel'], horizontal=True)
+        else: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea'], horizontal=True)
+        fig = go.Figure()
+        if tipo_graph == 'Barra':
+            fig.add_trace(go.Bar(x = tabla_agr[col_agrup], y= tabla_agr[col]))
+        elif tipo_graph == 'Linea':
+            fig.add_trace(go.Scatter(x = tabla_agr[col_agrup], y= tabla_agr[col], mode='lines'))
+        elif tipo_graph == 'Pastel':
+            fig.add_trace(go.Pie(labels = tabla_agr[col_agrup], values= tabla_agr[col]))
+        fig.update_layout(title=col+' agrupado por '+col_agrup)
+        st.plotly_chart(fig)
 
-def page_3():
+def page_4():
     st.write('# GlobalLandTemperaturesByCountry.csv')
     st.write('https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data')
     tabla = pd.read_csv('GlobalLandTemperaturesByCountry.csv')
@@ -276,42 +347,27 @@ def page_3():
             tabla_agr = tabla[[col_agrup, col]].groupby(col_agrup).count().reset_index().sort_values(col_agrup)
         cols2[1].write(tipo_agrup + ' por la columna "' + col_agrup + '"')
         cols2[1].dataframe(tabla_agr, height=250)
-    st.write('------')
+        st.write('------')
+        if len(tabla_agr) < 50: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea', 'Pastel'], horizontal=True)
+        else: tipo_graph = st.radio('Tipo de gráfico:', ['Barra', 'Linea'], horizontal=True)
+        fig = go.Figure()
+        if tipo_graph == 'Barra':
+            fig.add_trace(go.Bar(x = tabla_agr[col_agrup], y= tabla_agr[col]))
+        elif tipo_graph == 'Linea':
+            fig.add_trace(go.Scatter(x = tabla_agr[col_agrup], y= tabla_agr[col], mode='lines'))
+        elif tipo_graph == 'Pastel':
+            fig.add_trace(go.Pie(labels = tabla_agr[col_agrup], values= tabla_agr[col]))
+        fig.update_layout(title=col+' agrupado por '+col_agrup)
+        st.plotly_chart(fig)
     pass
 
-
-def page_4():
-    repo_path = 'https://github.com/alimusac/Trabajo-Grupal'
-    st.title('El calentamiento global en el mundo')
-    st.write('La comunidad internacional se ha puesto de acuerdo para evitar que el aumento promedio de la temperatura mundial no supere los 2 °C por encima de los niveles pre-industriales. Para tal fin, todos los países presentan en forma voluntaria un compromiso para disminuir sus emisiones de dióxido de carbono para el 2030.')
-    st.write('Sin embargo, distintos tipos de estudios advierten que los estragos de la polución ya están dejando sus huellas en el presente.')
-    st.write('link= https://www.france24.com/es/minuto-a-minuto/20220810-el-agua-de-lluvia-no-es-potable-debido-a-los-químicos-según-un-estudio')
-    st.image('diario1.jpg')
-    st.write('link= https://www.bbc.com/mundo/noticias-61389005')
-    st.image('diario2.jpg')
-    st.write('La ONU ha organizado distintas comisiones para corroborar que cada país esté en camino a cumplir con las NDC (Contribuciones Determinadas a Nivel Nacional) del Acuerdo de París.')
-    st.title(' LC(Comisión Latinoamericana)')
-    st.write('Debemos realizar un informe sobre la situación en Latinoamérica para la IPCC (Grupo Intergubernamental de Expertos Sobre el Cambio Climático) para que nuclee la información y realice un informe general para la ONU.')
-    st.write('Los puntos a trabajar son:')
-    st.title('KPI')
-    st.write('Analizar el compromiso que cada país realizó y ver si (a cinco años del mismo) están encaminados en su cumplimiento.')
-    st.image('NDC.jpg')
-    st.write('Garantizar el acceso universal a servicios energéticos asequibles, fiables y modernos para el 2030.')
-    st.write('Aumentar considerablemente la proporción de energía renovable en el conjunto de fuentes energéticas para el 2030.')
-    st.write('Duplicar la tasa mundial de mejora de la eficiencia energética para el 2030')
-    st.write('Que la temperatura de Latinoamérica no supere los 1,5°C a las mediciones de la época preindustrial.')
-    st.title('Equipo')
-    st.write('La LC(Comisión Latinoamericana) ya está trabajando en el análisis exploratorio de datos a través de la información obtenida')
-      
-    st.write('------')
-
 page_names_to_funcs = {
-    "1 - energyco2": page_0,
-    "2 - global_power_plant_database": page_1,
-    "3 - owid-energy-consumption-source": page_2,
-    "4 - GlobalLandTemperaturesByCountry": page_3,
-    "5 - Presentacion": page_4
+    "0 - Presentacion": page_0,
+    "1 - energyco2": page_1,
+    "2 - global_power_plant_database": page_2,
+    "3 - owid-energy-consumption-source": page_3,
+    "4 - GlobalLandTemperaturesByCountry": page_4,
 }
-
+st.set_page_config(page_title = 'Presentación', page_icon='Ⓛ')
 selected_page = st.sidebar.selectbox("Seleccione página", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
