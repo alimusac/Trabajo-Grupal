@@ -4,7 +4,7 @@ Esta es la presentación del grupo número 4 que se puede ver por streamlit a tr
 
 El equipo está conformado por:
 
-Francisco Cervantes: Machine Lerning
+Francisco Cervantes: Machine Lerning \n
 Mauricio Vilar: Data Engineer
 Pablo Jalil: Infraestructura y Big Data
 Gerardo Flores Hernández: Data Science
