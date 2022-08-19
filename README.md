@@ -4,8 +4,8 @@ Esta es la presentación del grupo número 4 que se puede ver por streamlit a tr
 
 El equipo está conformado por:
 
-Francisco Cervantes: Machine Lerning;
-Mauricio Vilar: Data Engineer;
-Pablo Jalil: Infraestructura y Big Data;
-Gerardo Flores Hernández: Data Science;
-Alicia Musacchio: Data Analyst.
+Mauricio Vilar: Data Engineer (Limpieza y adecuación de datos);
+Pablo Jalil: Infraestructura y Big Data; (Almacenamiento y disponibilidad de los datos);
+Alicia Musacchio: Data Analyst (Presentación visual y análisis de datos);
+Francisco Cervantes: Machine Lerning (Presentación y Proyecciones futuras);
+Gerardo Flores Hernández: Data Science (Evaluar los datos a lo largo de los procesos para establecer su aceptacion y confiabilidad en el calculo de los indicadores).
